@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
 }
-.container .navbar img{
+.container .navbar img {
     width: 50px;
     cursor: pointer;
 }
@@ -28,6 +28,7 @@
     cursor: pointer;
     margin-left: 40px;
 }
+
 nav {
     flex: 1;
     text-align: right;
