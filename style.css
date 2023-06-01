@@ -19,16 +19,17 @@
     display: flex;
     align-items: center;
 }
-.container .navbar img{
+.container .navbar img {
     width: 50px;
     cursor: pointer;
 }
-.menu-icon{
+.menu-icon {
     width:30px ;
     cursor: pointer;
     margin-left: 40px;
 }
-nav{
+
+nav {
     flex: 1;
     text-align: right;
 }
