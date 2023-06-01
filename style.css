@@ -22,11 +22,12 @@
 .container .navbar img {
     width: 50px;
     cursor: pointer;
+    margin-left: 20px;
 }
 .menu-icon {
     width:30px ;
     cursor: pointer;
-    margin-left: 40px;
+    margin-left: 100px;
 }
 
 nav {
@@ -37,11 +38,16 @@ nav ul li{
     list-style: none;
     display: inline-block;
     margin-left:60px ;
+    color: #fff;
 }
 nav ul li a{
     text-decoration: none;
     color: #fff;
-    font-size:13px ;
+    font-size:13px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: aquamarine;
 }
 .row{
     display: flex;
