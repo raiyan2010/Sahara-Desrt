@@ -46,8 +46,8 @@ nav ul li a{
     font-size:13px;
 }
 nav ul li a:hover{
-    text-decoration: underline;
-    color: aquamarine;
+    text-decoration: wavy;
+    color: #fff;
 }
 .row{
     display: flex;
@@ -67,13 +67,74 @@ p{
     line-height: 15px;
 }
 button{
-    width: 180px;
-    color: #000;
-    font-size:12px ;
-    padding: 12px 0;
-    background: #fff;
-    border: 0;
-    border-radius:20px ;
-    outline: none;
-    margin-top: 30px;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+}
+span{
+    background: #009688 ;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 1s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    background-color: #fff;
+    border: none;
+    color:#000;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    transition:transform 0.5s;
+    background-position: center;
+    background-size: cover;
+
+}
+.card1{
+    background-image: url(image/pic-1.png);
+}
+.card2{
+    background-image: url(image/pic-2.png);
+}
+.card3{
+    background-image: url(image/pic-3.png);
+}
+.card4{
+    background-image: url(image/pic-4.png);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
 }
